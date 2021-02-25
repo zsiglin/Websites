@@ -1,75 +1,76 @@
 @-webkit-keyframes fade-in {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
 @keyframes fade-in {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
 body {
-	-webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
   background: url(/images/amadablam.jpg) no-repeat 26% center fixed;
-	background-size: cover;
-	color: #202020;
-	font-family: "Oswald", sans-serif;
+  background-size: cover;
+  color: #202020;
+  font-family: "Oswald", sans-serif;
 }
 
 .container {
-	-webkit-animation-name: fade-in;
+  -webkit-animation-name: fade-in;
   -webkit-animation-duration: 1s;
   -webkit-animation-timing-function: ease-in;
   animation-name: fade-in;
   animation-duration: 1s;
   animation-timing-function: fade-in;
-	height: 12.5em;
-	left: 50%;
-	margin: -6.25em 0 0 -18.75em;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	width: 37.5em;
+  height: 12.5em;
+  left: 50%;
+  margin: -6.25em 0 0 -18.75em;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 37.5em;
 }
 
 i {
-	padding: 0.125em;
+  padding: 0.125em;
 }
 
 .name {
-	font-size: 3.5em;
-	font-weight: 700;
-	letter-spacing: 0.1em;
+  font-size: 3.5em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
 
 .social-media {
-	font-size: 2.1875em;
-}
- 
-.social-media a { 
-	color: #202020;
-	text-decoration: none;
+  font-size: 2.1875em;
 }
 
-.social-media i:hover, .social-media i:active {
-	-moz-transition: .3s;
-	-ms-transition: .3s;
-	-o-transition: .3s;
-	-webkit-transition: .3s;
-	color: #F43745;
-	transition: .3s;
+.social-media a {
+  color: #202020;
+  text-decoration: none;
+}
+
+.social-media i:hover,
+.social-media i:active {
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #f43745;
+  transition: 0.3s;
 }
 
 @media (min-width: 700px) {
-	body{
-		font-size: 1.25em;
-	}
+  body {
+    font-size: 1.25em;
+  }
 }
